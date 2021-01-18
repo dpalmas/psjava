@@ -1,2 +1,2 @@
 # psjava
-Getting Started with Programming in Java by PluralSight
+Java Language Fundamentals by PluralSight
