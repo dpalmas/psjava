@@ -1,7 +1,7 @@
 # Java Language Fundamentals
 
 <h2 align="center">
-  Java Course by PluralSight :rocket: :computer: :rocket:
+  Java Course by PluralSight :book: :computer: :rocket:
 </h2>
 
 <p align="center">O curso aborda desde a introdução básica ao nível avançado da linguagem Java e como trabalhar efetivamente com a linguagem. Aqui estão algumas anotações que estou fazendo durante o curso e acredito que sejam de grande importância no aprendizado.</a>
