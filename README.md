@@ -384,4 +384,104 @@ public static void main(String[] args) {
 }
 ```
 
+## Lógica Condicional e Declarações em Bloco
+
+ > **Lógica condicional** é uma parte essencial da construção de qualquer aplicação que faça qualquer coisa interessante. Sem a condição lógica há somente um caminho linear para execução de um programa.
+
+ A lógica condicional pode ser resumida em duas partes:
+
+ - Realizar o teste;
+ - Realizar ação com base no resultado do teste.
+
+## Operadores Relacionais
+
+|         | Operador| Inteiro, Ponto Flutuante | Caracter | Booleano| 
+| ------- | ------- | --------------- | ------- | --------|
+| Maior que | > | 5 > 4 | 'c' > 'a' | N/A 
+| Maior ou igual | >= | 5 >= 4 | 'c' >= 'a' | N/A
+| Menor que | < | 4 < 5 |   'a' < 'c'   | N/A
+| Menor ou igual | <= | 4 <= 5 |  'a' <= 'c'   | N/A 
+| Igual | == | 5 == 5 | 'c' == 'c' | true == true
+| Não é igual a | != | 4 != 5 | 'a' != 'c' | true != false
+
+## Atribuição Condicional
+
+**Retorna um valor baseado no resultado de uma condição.**
+
+```java
+result = condition ? true-value : false-value;
+```
+
+```java
+int value1 = 7;
+int value2 = 5;
+int maxValue = value1 > value2 ? value1 : value2;
+
+System.out.println(maxValue); // mostra 7
+```
+
+## If-else
+
+- Uma declaração **if** condicional executa uma declaração.
+- Cláusula **else** executa uma declaração quando a condição é **false**.
+- A cláusula **else** é opcional.
+
+> **Nota**: Só precisamos colocar uma clásula **else** se desejamos executar diferentes linhas do código no caso da condição ser falsa.
+
+```java
+if (condition)
+  true-statement;
+else
+  false-statement;
+```
+
+Exemplo:
+
+```java
+int value1 = 10;
+int value2 = 4;
+
+if (value1 > value2)
+  System.out.println("value 1 is bigger");
+else 
+  System.out.println("value 1 is not bigger");
+```
+
+## Encadeamento If-else
+
+- Analisado em ordem de cima para baixo;
+- O primeiro a testar true é executado;
+
+```java
+if (condition-1)
+  true-statement-1;
+else if (condition-2)
+  true-statement-2
+      .
+      .
+      .
+else if (condition-N)
+  true-statement-N;
+else
+  false-statement;
+```
+
+Exemplo:
+
+```java
+int value1 = 10;
+int value2 = 40;
+
+if (value1 > value2)
+  System.out.println("value 1 is bigger");
+else if (value1 < value2)
+  System.out.println("value 2 is bigger");
+else
+  System.out.println("value 1 and value 2 are equal");
+```
+
+
+
+
+
 
