@@ -507,4 +507,62 @@ else
 - **&&** executa a direita somente quando a esquerda é **true**;
 - **| |** executa a direita somente quando a esquerda é **false**.
 
+## Declarações em Bloco
+
+> **Um bloco de código** é um agrupamento de duas ou mais intruções.
+
+- Cria uma declaração composta;
+- Inclusão das instruções entre chaves de abertura e fechamento.
+
+```java
+{
+  statement-1;
+  statement-2;
+      .
+      .
+      .
+  statement-N;
+}
+```
+
+Exemplo:
+
+```java
+int v1 = 10, v2 =4;
+final int diff;
+
+if (v1 > v2) {
+   diff = v1 - v2;
+   System.out.println("v1 is bigger than v2, diff = " + diff);
+} 
+else {
+  diff = v2 - v1;
+    System.out.println("v1 is not bigger than v2, diff = " + diff);
+}
+```
+
+## Declarações em Bloco e Escopo de Variável
+
+> **Variável de Escopo** descreve a faixa de visibilidade.
+
+**Variável declarada dentro de uma declaração de bloco**:
+
+- O escopo é limitado a esse bloco;
+- Em outras palavras, a variável não é visível fora deste bloco.
+  
+Exemplo:
+
+```java
+double students = 30.0d, rooms =  4.0d;
+
+if(rooms > 0.0d) {
+  System.out.println(students);
+  System.out.println(rooms);
+  double avg = students / rooms;
+}
+System.out.println(avg); // Compile time error (a variável não é visível fora do bloco)
+```
+
+
+
 
