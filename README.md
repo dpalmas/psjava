@@ -480,8 +480,31 @@ else
   System.out.println("value 1 and value 2 are equal");
 ```
 
+## Operadores Lógicos
 
+- Produzir um único resultado **true** ou **false** de dois valores **true** ou **false**;
+- Pode combinar dois testes relacionais;
+- Pode combinar duas variáveis Booleanas.
 
+|         | Operador| O que resolve true | 
+| ------- | ------- | -------------------| 
+| And     | &       | true & true   | 
+| Or      | \|       | false \| true true \| false true \| true  | 
+| Exclusive or (XOR) | ^       | false ^ true true ^false| 
+| Negation    | !       | false   | 
 
+## Operadores Lógicos Condicionais
+
+**Similar para o padrão de operadores lógicos.**
+
+|         | Operador| O que resolve true | 
+| ------- | ------- | -------------------| 
+| And     | &&       | true & true   | 
+| Or      | \| \|       | false \| \| true true \| ----| 
+
+**Lado direito executa somente quando necessário:**
+
+- **&&** executa a direita somente quando a esquerda é **true**;
+- **| |** executa a direita somente quando a esquerda é **false**.
 
 
