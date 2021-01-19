@@ -10,6 +10,6 @@ public class Main {
 	        System.out.println("Crowded");
 
 	    System.out.println();
-	    System.out.println("*** end of program ***");	
+	    System.out.println("*** end of program ***");
     }
 }
