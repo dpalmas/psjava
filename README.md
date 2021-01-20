@@ -595,6 +595,92 @@ switch (value-to-test) {
 - Termina cada expressão com **break**;
 - Caso contrário, 'cairá' para próxima expressão.
 
+## Looping e Arrays
+
+Java possui os seguintes laços de repetição:
+
+- While loop;
+- Do-while loop;
+- For loop;
+- Arrays;
+- For-each loop.
+  
+## Loops
+
+> **Loop** executa repetidamente uma declaração enquanto a condição fornecida for verdadeira.
+
+> **While-loop** laço de repetição básico, que fornece um comportamento de looping mais básico.
+
+> **Do-while loop** fornece um comportamento de looping, mas difere quando a condição para esse loop for verificada.
+
+> **For-loop** é similar ao **while**, porém com notação simplificada para caso de uso comum.
+
+## While Loop
+
+- A condição é verificada no início do laço de repetição;
+- Por padrão é repetida somente uma declaração no laço de repetição, se desejarmos mais devemos colocar chaves no inicio e final do laço de repetição;
+- Pode acontecer de o corpo do laço de repetição nunca ser executado (nesse caso a condição dentro do laço é **false**);
+
+```java
+while (condition)
+  statement;
+```
+Exemplo:
+
+```java
+int someValue = 4;
+int factorial = 1;
+
+while(someValue > 1) {
+  factorial *= someValue;
+  someValue--;
+}
+
+System.out.println(factorial); // mostra 24
+```
+
+## Do-while Loop
+
+- A condição é verificada no final do laço de repetição;
+- O corpo do laço de repetição sempre executa pelo menos uma vez;
+- É uma boa escolha para cenários onde sempre queremos executar o corpo do laço de repetição pelo menos uma vez.
+
+```java
+do
+  statement;
+while (condition)
+```
+
+Exemplo:
+
+```java
+int iVal = 5;
+do {
+  System.out.print(iVal);
+  System.out.print(" * 2 = ");
+  iVal *= 2;
+  System.out.println(iVal);
+} while(iVal < 25);
+```
+
+## For Loop
+
+- A condição é verificada no início do laço de repetição;
+- Similar ao laço de repetição **while**;
+- Notação simplificada para valores de controle do laço de repetição;
+- Pode acontecer de o corpo do laço de repetição nunca ser executado (nesse caso a condição dentro do laço é **false**).
+  
+```java
+for (initialize; condition; update)
+  statement;
+```
+
+Exemplo:
+
+```java
+for(int i = 1; i < 100; i *= 2) 
+  System.out.println(i);
+```
 
 
 
