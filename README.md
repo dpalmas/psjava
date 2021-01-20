@@ -563,6 +563,42 @@ if(rooms > 0.0d) {
 System.out.println(avg); // Compile time error (a variável não é visível fora do bloco)
 ```
 
+## Switch
+
+- Testa valor sobre múltiplos valores coincidentes.
+- Transfere o controle baseado em valores coincidentes.
+  
+```java
+switch (value-to-test) {
+  case matching-value-1:
+    statements
+    break;
+  .
+  .
+  .
+  case matching-value-N:
+    statements
+    break;
+    default:
+      statements
+}
+```
+
+> **Nota**: a palavra chave **break** indica que 'pulamos' fora do **switch**. A palavra chave **default** é executada quando nenhuma constante **case** coincide com a expressão.
+
+## Usando Switch
+
+**Switch** pode ser usado somente com certos tipos de dados:
+
+- Suporte para tipos de dados primitivos (byte, short, int, long e char);
+- Uma expressão pode ter múltiplas declarações;
+- Termina cada expressão com **break**;
+- Caso contrário, 'cairá' para próxima expressão.
+
+
+
+
+
 
 
 
