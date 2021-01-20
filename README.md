@@ -682,6 +682,39 @@ for(int i = 1; i < 100; i *= 2)
   System.out.println(i);
 ```
 
+## Arrays
+
+- Fornecer uma coleção ordenada de elementos;
+- Cada valor individual é conhecido como elemento;
+- Cada elemento é acessado por índice;
+- O índice inicia na posição 0, ou seja, o número de elementos menos um;
+- O número de elementos pode ser através do valor de comprimento da matriz.
+
+```java
+float[] theVals = new float[3];
+theVals[0] = 10.0f;
+theVals[1] = 20.0f;
+theVals[2] = 15.0f;
+```
+
+Exemplo:
+
+```java
+float[] theVals = new float[3];
+theVals[0] = 10.0f;
+theVals[1] = 20.0f;
+theVals[2] = 15.0f;
+float sum = 0.0f;
+
+for(int index = 0;  index < theVals.length; index++)
+  sum+= theVals[index];
+System.out.println(sum); // mostra 45
+```
+
+
+
+
+
 
 
 
