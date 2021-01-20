@@ -711,7 +711,28 @@ for(int index = 0;  index < theVals.length; index++)
 System.out.println(sum); // mostra 45
 ```
 
+## For-each Loop
 
+- Ajuda a simplificar o trabalho com arrays em laços de repetição;
+- Executa o corpo do laço de repetição uma vez para cada membro do array;
+- Manipula o comprimento da coleção;
+- Manipula o acesso de cada valor.
+
+```java
+for(loop-variable : array)
+  statement;
+```
+
+Exemplo:
+
+```java
+float[] theVals = { 10.0f, 20.0f, 15.0f };
+float sum = 0.0f;
+
+for(float currentVal : theVals)
+  sum += currentVal;
+System.out.println(sum); // mostra 45
+```
 
 
 
