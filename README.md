@@ -647,7 +647,16 @@ static void showSum(float x, float y, int count) {
 - Em Java, parâmetros são passados por valor, o que significa que o parâmetro recebe uma cópia do valor original;
 - Métodos alteram o valor dos parâmetros e isto estará visível dentro deste método;
 
-Exemplo:
+### **Razões para um método existir**
+
+- Uma das razões é o fim do método, isso significa que não há mais código dentro do método para ser executado;
+- Pode haver uma saída explícita, podemos usar o que é chamado de declaração de retorno, e quando acertarmos uma declaração de retorno, sairemos do método no momento em que chamarmos a declaração de retorno;
+- Em caso de erro, saímos abruptamente  do método por causa desse erro e Java usa um mecanismo conhecido como **exceções**.
+
+### **Retornando um valor**
+
+- Um método pode retornar um simples valor, este valor retornado com declaração de retorno;
+- O tipo do retorno do método pode conter dados primitivos ou mais complexo como um array.
 
 
 
