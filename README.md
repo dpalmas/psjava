@@ -393,18 +393,6 @@ else
   false-statement;
 ```
 
-Exemplo:
-
-```java
-int value1 = 10;
-int value2 = 4;
-
-if (value1 > value2)
-  System.out.println("value 1 is bigger");
-else 
-  System.out.println("value 1 is not bigger");
-```
-
 ### **Encadeamento If-else**
 
 - Analisado em ordem de cima para baixo;
@@ -422,20 +410,6 @@ else if (condition-N)
   true-statement-N;
 else
   false-statement;
-```
-
-Exemplo:
-
-```java
-int value1 = 10;
-int value2 = 40;
-
-if (value1 > value2)
-  System.out.println("value 1 is bigger");
-else if (value1 < value2)
-  System.out.println("value 2 is bigger");
-else
-  System.out.println("value 1 and value 2 are equal");
 ```
 
 ### **Operadores Lógicos**
