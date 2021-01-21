@@ -43,11 +43,11 @@ ferramenta qual utilizamos para editar, construir, executar, depurar nossos apli
 
 Neste curso foi utilizado o [Intellij IDEA](https://www.jetbrains.com/idea/promo/?&msclkid=9d71793e069c13d7179d1938f153162f&gclid=9d71793e069c13d7179d1938f153162f&gclsrc=3p.ds).
 
-## A Experiência do Desenvolvedor Java 
+### **A Experiência do Desenvolvedor Java**
 
 Quando estamos programando a IDE executa, depura, constroi, porém a IDE não faz todo o trabalho sozinha. Há uma cooperação da IDE com a JDK para produzir a aplicação Java, quando tentamos executar essa aplicação em um ambiente por exemplo Linux, Mac OS ou Windows ou outro ambiente host, a aplicação Java não pode ser executada diretamente, porque esses ambientes host já possuem plataforma independente do byte code. O que permite a execução é a JRE que esta cooperando com a JDK.
 
-## A Experiência do Usuário Java
+### **A Experiência do Usuário Java**
 
 E os usuários que desejam executar meus aplicativos?
 
@@ -56,7 +56,7 @@ Quando o JRE esta instalado os aplicativos Java tornam-se apenas outros aplicati
 
 **Importante!** Quando executamos nossa aplicação Java o nome do arquivo da Class é Case Sensitive.
 
-## Declaração de Estrutura
+### **Declaração de Estrutura**
 
 - Programas são feitos de declarações;
 - Declarações terminam com ponto e vírgula;
@@ -78,7 +78,7 @@ System.out.println
     ;
 ```
 
-## Comentários
+### **Comentários**
 
 Java nos permite colocar comentários em nosso código fonte.
 
@@ -99,7 +99,7 @@ Java suporta três tipos de comentários:
 
 > __/**...*/ Javadoc comment__ - O compilador trata similar ao comentário em bloco. Pode ser usado para gerar documentação. Detalhes sobre esse tipo de documentação esta fora do escopo deste curso.
 
-## Pacotes
+### **Pacotes**
 
 > **Pacotes** possuem vários recursos importantes.
 Fornecem organizações, seguem um padrão para convenção de nomes que são únicas, afeta a estrutura do código fonte,
@@ -123,7 +123,7 @@ src
 
 Além disso, o valor de uma variável pode ser alterado durante a execução de um programa. Isto é, o conteúdo de uma variável é alterável e não fixo. 
 
-## Nomeação de Variável
+### **Nomeação de Variável**
 
 - Usar somente letras e números;
 - Primeiro caracter não pode ser um número;
@@ -140,7 +140,7 @@ int 2much; // não usar
 Por convenção, nomes de variáveis consistem de somente letras e números. Tecnicamente o compilador Java permite usar alguns símbolos
 especiais, mas na prática nós usamos letras e números.
 
-## Nomes de estilo usando Camel Case
+### **Nomes de estilo usando Camel Case**
 
 Inicia cada palavra depois da primeira com maiúscula, todas as outras letras são minúsculas, por exemplo:
 
@@ -150,7 +150,7 @@ int studentCount;
 int bankAccountBalance;
 ```
 
-## Variáveis podem ser declaradas como Final
+### **Variáveis podem ser declaradas como Final**
 
 - Usa modificador final;
 - O valor não pode ser alterado uma vez definido;
@@ -165,7 +165,7 @@ int someAnotherVariable = 100;
 someVariable = someAnotherVariable;
 ```
 
-## Tipos de Dados Primitivos
+### **Tipos de Dados Primitivos**
 
 - Construída na linguagem;
 - Base de todos os outros tipos;
@@ -180,7 +180,7 @@ int milesToSun = 92960000;
 long milesInALightYear = 5879000000000L;
 ```
 
-## Tipos Inteiros
+### **Tipos Inteiros**
 
 | Tipo | Bits | Valor Min | Valor Máx | Forma Literal|
 | ---- | ---- | --------- | --------- | ------------ |
@@ -189,7 +189,7 @@ long milesInALightYear = 5879000000000L;
 | int  |  32  |-2147483648|2147483647 |       0      |
 |long|64|-9223372036854775808|9223372036854775807|0L |
 
-## Tipos Ponto Flutuante
+### **Tipos Ponto Flutuante**
 
 Armazena valores contendo uma porção fracionada.
 
@@ -204,7 +204,7 @@ double atomWidthInMeters = 0.0000000001d;
 | float | 32   |    1.4 x 10<sup>-45</sup>   |     3.4 x 10<sup>38</sup>   |       0.0f      |
 | double |  64  | 4.9 x 10<sup>-324</sup> | 1.7 x 10<sup>308</sup> |       0.0 or 0.0d      |
 
-## Tipos de Caracteres
+### **Tipos de Caracteres**
 
 - Armazena um único caractere Unicode;
 - Valores literais colocados entre aspas únicas;
@@ -215,7 +215,7 @@ char regularU = 'U';
 char accentedU = '\u00DA'; // Ú
 ```
 
-## Tipo Booleano
+### **Tipo Booleano**
 
 - Armazena valores true/false;
 - Valores literais são true/false.
@@ -224,11 +224,11 @@ char accentedU = '\u00DA'; // Ú
 boolean iLoveJava = true;
 ```
 
-## Tipos primitivos são armazenados por valor
+### **Tipos primitivos são armazenados por valor**
 
 A chave para entender tipos primitivos em Java, cada valor de variável é independente para qualquer outro valor de variável.
 
-## Operadores Aritiméticos
+### **Operadores Aritiméticos**
 
 > **Básico** produz um resultado sem impacto sobre os valores utilizados na operação.
 
@@ -236,7 +236,7 @@ A chave para entender tipos primitivos em Java, cada valor de variável é indep
 
 > **Atribuição composta** - opera em um valor, substitui o valor original.
 
-## Operadores Básicos
+### **Operadores Básicos**
 
 | Operação | Operador | Equação | Resultado | Equação | Resultado | 
 | ---- | ---- | --------- | --- | ------ |-------|
@@ -246,7 +246,7 @@ A chave para entender tipos primitivos em Java, cada valor de variável é indep
 | Divisão|/| 13.0 / 5.0| 2.6 | 13 / 5 | 2
 | Módulo|%| 13.0 % 5.0 | 3.0 | 13 % 5 | 3
 
-## Operadores Prefixo e Posfixo
+### **Operadores Prefixo e Posfixo**
 
  - ++ Incrementa valor por 1;
  - -- Decrementa valor por 1;
@@ -273,7 +273,7 @@ System.out.println(++someOtherValue); // 6
 > **Nota**: Quando o operador esta antes da variável obtém-se o resultado da operação.
 Quando o operador esta depois da variável obtém-se o valor anterior da operação, mas a operação ainda é realizada.
 
-## Operadores compostos de atribuição
+### **Operadores compostos de atribuição**
 
 - Combine uma operação e atribui;
 - Aplica o valor do lado direito para o lado esquerdo;
@@ -295,7 +295,7 @@ myOtherValue /= val1 * val2;
 System.out.println(myOtherValue);
 ```
 
-## Precedência do operador
+### **Precedência do operador**
 
 | Posfixo | Prefixo | Multiplicativo  | Aditivo | 
 | ------- | ------- | --------------- | ------- |
@@ -307,30 +307,7 @@ System.out.println(myOtherValue);
 
 - <-> Parênteses aninhados avaliados de dentro para fora
 
-```java
-public static void main(String[] args) {
-    int valA = 21;
-    int valB = 6;
-    int valC = 3;
-    int valD = 1;
-
-    int result1 = valA - valB / valC;
-
-    int result2 = (valA - valB) / valC;
-
-    System.out.println(result1); // 19
-    System.out.println(result2); // 5
-
-    int result3 = valA / valC * valD + valB; // 13
-
-    int result4 = valA / (valC * (valD + valB)); // 1
-
-    System.out.println(result3);
-    System.out.println(result4);
-}
-```
-
-## Tipos de Conversão
+### **Tipos de Conversão**
 
 > **Conversão do tipo implícita** conversão realizada automaticamente pelo compilador.
 
@@ -350,14 +327,14 @@ long longValueTwo = 50;
 int intValueTwo = (int) longValueTwo;
 ```
 
-## Conversão do Tipo Implícita
+### **Conversão do Tipo Implícita**
 
 - As conversões de ampliação são realizadas automaticamente;
 - Tamanhos inteiros mistos -> Usa maior inteiro na equação;
 - Tamanhos de pontos flutuantes mistos -> Usa double;
 - Inteiro misto e ponto flutuante -> Usa o maior ponto flutuante.
 
-## Conversão do Tipo Explícita
+### **Conversão do Tipo Explícita**
 
 - Pode realizar conversões de ampliação ou estreitamento;
 - Esteja ciente de potenciais efeitos colaterais;
@@ -393,7 +370,7 @@ public static void main(String[] args) {
  - Realizar o teste;
  - Realizar ação com base no resultado do teste.
 
-## Operadores Relacionais
+### **Operadores Relacionais**
 
 |         | Operador| Inteiro, Ponto Flutuante | Caracter | Booleano| 
 | ------- | ------- | --------------- | ------- | --------|
@@ -404,9 +381,9 @@ public static void main(String[] args) {
 | Igual | == | 5 == 5 | 'c' == 'c' | true == true
 | Não é igual a | != | 4 != 5 | 'a' != 'c' | true != false
 
-## Atribuição Condicional
+### **Atribuição Condicional**
 
-**Retorna um valor baseado no resultado de uma condição.**
+Retorna um valor baseado no resultado de uma condição.
 
 ```java
 result = condition ? true-value : false-value;
@@ -420,7 +397,7 @@ int maxValue = value1 > value2 ? value1 : value2;
 System.out.println(maxValue); // mostra 7
 ```
 
-## If-else
+### **If-else**
 
 - Uma declaração **if** condicional executa uma declaração.
 - Cláusula **else** executa uma declaração quando a condição é **false**.
@@ -447,7 +424,7 @@ else
   System.out.println("value 1 is not bigger");
 ```
 
-## Encadeamento If-else
+### **Encadeamento If-else**
 
 - Analisado em ordem de cima para baixo;
 - O primeiro a testar true é executado;
@@ -480,7 +457,7 @@ else
   System.out.println("value 1 and value 2 are equal");
 ```
 
-## Operadores Lógicos
+### **Operadores Lógicos**
 
 - Produzir um único resultado **true** ou **false** de dois valores **true** ou **false**;
 - Pode combinar dois testes relacionais;
@@ -493,21 +470,21 @@ else
 | Exclusive or (XOR) | ^       | false ^ true true ^false| 
 | Negation    | !       | false   | 
 
-## Operadores Lógicos Condicionais
+### **Operadores Lógicos Condicionais**
 
-**Similar para o padrão de operadores lógicos.**
+Similar para o padrão de operadores lógicos.
 
 |         | Operador| O que resolve true | 
 | ------- | ------- | -------------------| 
 | And     | &&       | true & true   | 
 | Or      | \| \|       | false \| \| true true \| ----| 
 
-**Lado direito executa somente quando necessário:**
+Lado direito executa somente quando necessário:
 
 - **&&** executa a direita somente quando a esquerda é **true**;
 - **| |** executa a direita somente quando a esquerda é **false**.
 
-## Declarações em Bloco
+### **Declarações em Bloco**
 
 > **Um bloco de código** é um agrupamento de duas ou mais intruções.
 
@@ -541,11 +518,11 @@ else {
 }
 ```
 
-## Declarações em Bloco e Escopo de Variável
+### **Declarações em Bloco e Escopo de Variável**
 
 > **Variável de Escopo** descreve a faixa de visibilidade.
 
-**Variável declarada dentro de uma declaração de bloco**:
+Variável declarada dentro de uma declaração de bloco.
 
 - O escopo é limitado a esse bloco;
 - Em outras palavras, a variável não é visível fora deste bloco.
@@ -563,7 +540,7 @@ if(rooms > 0.0d) {
 System.out.println(avg); // Compile time error (a variável não é visível fora do bloco)
 ```
 
-## Switch
+### **Switch**
 
 - Testa valor sobre múltiplos valores coincidentes.
 - Transfere o controle baseado em valores coincidentes.
@@ -586,7 +563,7 @@ switch (value-to-test) {
 
 > **Nota**: a palavra chave **break** indica que 'pulamos' fora do **switch**. A palavra chave **default** é executada quando nenhuma constante **case** coincide com a expressão.
 
-## Usando Switch
+### **Usando Switch**
 
 **Switch** pode ser usado somente com certos tipos de dados:
 
@@ -595,7 +572,7 @@ switch (value-to-test) {
 - Termina cada expressão com **break**;
 - Caso contrário, 'cairá' para próxima expressão.
 
-## Looping e Arrays
+### **Looping e Arrays**
 
 Java possui os seguintes laços de repetição:
 
@@ -605,7 +582,7 @@ Java possui os seguintes laços de repetição:
 - Arrays;
 - For-each loop.
   
-## Loops
+### **Loops**
 
 > **Loop** executa repetidamente uma declaração enquanto a condição fornecida for verdadeira.
 
@@ -615,7 +592,7 @@ Java possui os seguintes laços de repetição:
 
 > **For-loop** é similar ao **while**, porém com notação simplificada para caso de uso comum.
 
-## While Loop
+### **While Loop**
 
 - A condição é verificada no início do laço de repetição;
 - Por padrão é repetida somente uma declaração no laço de repetição, se desejarmos mais devemos colocar chaves no inicio e final do laço de repetição;
@@ -639,7 +616,7 @@ while(someValue > 1) {
 System.out.println(factorial); // mostra 24
 ```
 
-## Do-while Loop
+### **Do-while Loop**
 
 - A condição é verificada no final do laço de repetição;
 - O corpo do laço de repetição sempre executa pelo menos uma vez;
@@ -663,7 +640,7 @@ do {
 } while(iVal < 25);
 ```
 
-## For Loop
+### **For Loop**
 
 - A condição é verificada no início do laço de repetição;
 - Similar ao laço de repetição **while**;
@@ -682,7 +659,7 @@ for(int i = 1; i < 100; i *= 2)
   System.out.println(i);
 ```
 
-## Arrays
+### **Arrays**
 
 - Fornecer uma coleção ordenada de elementos;
 - Cada valor individual é conhecido como elemento;
@@ -711,7 +688,7 @@ for(int index = 0;  index < theVals.length; index++)
 System.out.println(sum); // mostra 45
 ```
 
-## For-each Loop
+### **For-each Loop**
 
 - Ajuda a simplificar o trabalho com arrays em laços de repetição;
 - Executa o corpo do laço de repetição uma vez para cada membro do array;
@@ -755,7 +732,7 @@ Para ficar claro como o método funciona, vamos dividir em partes:
 - O corpo do método pode conter 0 ou mais declarações, deve iniciar com abertura e fechamento de chaves;
 - O retorno do método indica o tipo de dado retornado para o método(usa-se **void** quando não há retorno de dados).
 
-**Usando simples método:**
+### **Usando simples método:**
 
 ```java
 System.out.println("Before method call");
@@ -768,12 +745,12 @@ static void doSomething() {
 }
 ```
 
-**Dados no método**
+### **Dados no método**
 
 - O escopo de uma variável é limitado para o método onde é declarada;
 - Parâmetros permitem passar valores aos dados de um método;
 
-**Usando Parâmetros**
+### **Usando Parâmetros**
 
 ```java
 static void showSum(float x, float y, int count) {
@@ -782,6 +759,16 @@ static void showSum(float x, float y, int count) {
     System.out.println(sum);
 }
 ```
+
+### **Passando Parâmetros**
+
+- Em Java, parâmetros são passados por valor, o que significa que o parâmetro recebe uma cópia do valor original;
+- Métodos alteram o valor dos parâmetros e isto estará visível dentro deste método;
+
+Exemplo:
+
+
+
 
 
 
