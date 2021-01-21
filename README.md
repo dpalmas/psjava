@@ -734,8 +734,54 @@ for(float currentVal : theVals)
 System.out.println(sum); // mostra 45
 ```
 
+## Entendendo Métodos
 
+- Métodos são uma parte importante de desenvolvimento de aplicativos Java;
+- Permitem organizar nosso código para que nossas aplicações sejam mais mantidas;
+- Facilitam a reutilização do código em todo um aplicativo.
 
+> **Métodos** é um mecanismo para organizar nosso código, também permite a criação de blocos de código reutilizáveis, recebe e retorna dados.
+
+```java
+return-type name (type-parameter-list) {
+  statements
+}
+```
+
+Para ficar claro como o método funciona, vamos dividir em partes:
+
+- Precisamos declarar um nome para o método, porque é a forma como vamos acessar esse método (as regras e convenções de nomes são as mesmas das variáveis);
+- Passar uma lista de tipo de parâmetro, porque como o Java possui forte tipagem cada parametro terá uma tipo de dado específico associado a ele(é possível passar uma lista de parâmetros vazia).
+- O corpo do método pode conter 0 ou mais declarações, deve iniciar com abertura e fechamento de chaves;
+- O retorno do método indica o tipo de dado retornado para o método(usa-se **void** quando não há retorno de dados).
+
+**Usando simples método:**
+
+```java
+System.out.println("Before method call");
+doSomething();
+System.out.println("After method call");
+
+static void doSomething() {
+  System.out.println("Inside method");
+  System.out.println("Still inside");
+}
+```
+
+**Dados no método**
+
+- O escopo de uma variável é limitado para o método onde é declarada;
+- Parâmetros permitem passar valores aos dados de um método;
+
+**Usando Parâmetros**
+
+```java
+static void showSum(float x, float y, int count) {
+  float sum = x + y;
+  for(int i = 0; i < count; i++) 
+    System.out.println(sum);
+}
+```
 
 
 
