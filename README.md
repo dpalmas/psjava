@@ -511,7 +511,7 @@ switch (value-to-test) {
 - Termina cada expressão com **break**;
 - Caso contrário, 'cairá' para próxima expressão.
 
-### **Looping e Arrays**
+## Looping e Arrays
 
 Java possui os seguintes laços de repetição:
 
