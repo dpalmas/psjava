@@ -457,22 +457,6 @@ Lado direito executa somente quando necessário:
 }
 ```
 
-Exemplo:
-
-```java
-int v1 = 10, v2 =4;
-final int diff;
-
-if (v1 > v2) {
-   diff = v1 - v2;
-   System.out.println("v1 is bigger than v2, diff = " + diff);
-} 
-else {
-  diff = v2 - v1;
-    System.out.println("v1 is not bigger than v2, diff = " + diff);
-}
-```
-
 ### **Declarações em Bloco e Escopo de Variável**
 
 > **Variável de Escopo** descreve a faixa de visibilidade.
@@ -557,19 +541,6 @@ Java possui os seguintes laços de repetição:
 while (condition)
   statement;
 ```
-Exemplo:
-
-```java
-int someValue = 4;
-int factorial = 1;
-
-while(someValue > 1) {
-  factorial *= someValue;
-  someValue--;
-}
-
-System.out.println(factorial); // mostra 24
-```
 
 ### **Do-while Loop**
 
@@ -583,18 +554,6 @@ do
 while (condition)
 ```
 
-Exemplo:
-
-```java
-int iVal = 5;
-do {
-  System.out.print(iVal);
-  System.out.print(" * 2 = ");
-  iVal *= 2;
-  System.out.println(iVal);
-} while(iVal < 25);
-```
-
 ### **For Loop**
 
 - A condição é verificada no início do laço de repetição;
@@ -605,13 +564,6 @@ do {
 ```java
 for (initialize; condition; update)
   statement;
-```
-
-Exemplo:
-
-```java
-for(int i = 1; i < 100; i *= 2) 
-  System.out.println(i);
 ```
 
 ### **Arrays**
