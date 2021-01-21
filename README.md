@@ -658,6 +658,14 @@ static void showSum(float x, float y, int count) {
 - Um método pode retornar um simples valor, este valor retornado com declaração de retorno;
 - O tipo do retorno do método pode conter dados primitivos ou mais complexo como um array.
 
+### **Argumentos de Linha de Comando**
+
+- É uma maneira de passar informação dentro do nosso programa, uma parte da execução do programa;
+- Um aplicação se inicia com o método **main** que serve como porta de entrada no programa;
+- O método **main** aceita um parâmetro, e este parâmetro é um **array** que recebe qualquer argumentos de linha de comando passado para o programa;
+
+
+
 
 
 
