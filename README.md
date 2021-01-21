@@ -330,36 +330,17 @@ int intValueTwo = (int) longValueTwo;
 ### **Conversão do Tipo Implícita**
 
 - As conversões de ampliação são realizadas automaticamente;
-- Tamanhos inteiros mistos -> Usa maior inteiro na equação;
-- Tamanhos de pontos flutuantes mistos -> Usa double;
-- Inteiro misto e ponto flutuante -> Usa o maior ponto flutuante.
+- Tamanhos inteiros mistos **->** Usa maior inteiro na equação;
+- Tamanhos de pontos flutuantes mistos **->** Usa double;
+- Inteiro misto e ponto flutuante **->** Usa o maior ponto flutuante.
 
 ### **Conversão do Tipo Explícita**
 
 - Pode realizar conversões de ampliação ou estreitamento;
 - Esteja ciente de potenciais efeitos colaterais;
-- Estreitando conversões -> Bits significativos podem ser descartados;
-- Ponto flutuante para inteiro -> Porção fracionária é descartada;
-- Inteiro para ponto flutuante -> A precisão pode ser perdida.
-
-```java
-public static void main(String[] args) {
-    float floatVal = 1.0f;
-    double doubleVal = 4.0d;
-    byte byteVal = 7;
-    short shortVal = 7;
-    long longVal = 5;
-
-    short result1 = byteVal; // compilador faz a conversão automática porque short é maior que byte.
-    short result2 = longVal; // tipos incompatíveis a própria IDE sugere fazer o cast para 'short'.
-    short result3 = (short) longVal; 
-    short result4 = (short) (byteVal - longVal); 
-    long  result5 = longVal - floatVal; // convertendo-se para 'long' nos colocaria em perigo de perder a porção decimal do resultado
-    float result5 = longVal - floatVal; // melhor maneira é deixar a variável como float.
-
-    System.out.println("Success");
-}
-```
+- Estreitando conversões **->** Bits significativos podem ser descartados;
+- Ponto flutuante para inteiro **->** Porção fracionária é descartada;
+- Inteiro para ponto flutuante **->** A precisão pode ser perdida.
 
 ## Lógica Condicional e Declarações em Bloco
 
