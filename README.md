@@ -715,6 +715,14 @@ A maioria das aplicações que desenvolvemos precisamos trabalhar com algum tipo
 - Permite inserir conteúdo dentro do buffer da string;
 - Não é uma cadeia de caracteres, depois de criar o conteúdo de nosso interesse precisamos extrair um string da instância do construtor de string usando **toString**.
 
+## Formatação de String
+
+Especificadores de formato:
+
+- Foco em resolver o resultado desejado;
+- Pode controlar muitos aspectos de aparência;
+- Suporta uma variedade de métodos(String.format, System.out.printf).
+
 
 
 
