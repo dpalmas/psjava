@@ -738,7 +738,7 @@ Minimum characters to display
 
 ### **Conversões de formato comum**
 
-| | Significado| Tipo | Valor Exemplo | Resultado| 
+| | Significado| Tipo | Exemplo Valor | Resultado| 
 |-| -----------| ---- | ------------- | -------- |   
 |d| Decimal    |Integral| 32 | 32 |
 |x X| Hex    | Integral | 32 | 20 |
