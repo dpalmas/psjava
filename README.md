@@ -723,16 +723,25 @@ Especificadores de formato:
 - Pode controlar muitos aspectos de aparência;
 - Suporta uma variedade de métodos(String.format, System.out.printf).
 
+### **Partes de um Especificador de Formato**
 
+```bash
+Decimal places to display
+├───────────────────────────────────│ 
+                                    │    
+%[argument index][flags][width][precision]conversion
+                           │
+├──────────────────────────│
+Minimum characters to display
+(Space-padded, right-justified by default)
+```
 
+### **Conversões de formato comum**
 
-
-
-
-
-
-
-
-
-
-
+| | Significado| Tipo | Valor Exemplo | Resultado| 
+|-| -----------| ---- | ------------- | -------- |   
+|d| Decimal    |Integral| 32 | 32 |
+|x X| Hex    | Integral | 32 | 20 |
+|f| Decimal  | Float point | 123.0 | 123.000000 |
+|e E|Scientific notation|Float point|123.0|1.230000e+02|          
+|s| String  | General | "Hello" | Hello |
