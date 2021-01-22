@@ -664,6 +664,60 @@ static void showSum(float x, float y, int count) {
 - Um aplicação se inicia com o método **main** que serve como porta de entrada no programa;
 - O método **main** aceita um parâmetro, e este parâmetro é um **array** que recebe qualquer argumentos de linha de comando passado para o programa;
 
+## Trabalhando com Strings
+
+A maioria das aplicações que desenvolvemos precisamos trabalhar com algum tipo de texto e muitas vezes precisamos fazer um grande trabalho com texto. Nós precisamos saber como trabalhar efetivamente e eficientemente com texto e para Java possui as **strings**.
+
+### **Classe String**
+
+- Armazena uma sequência de caracteres unicode;
+- Tipo de armazenamento é que conhecemos como formato UTF-16;
+- Literais são fechados por aspas duplas;
+- Suporta concatenação usando + ou +=.
+
+### **Strings são imutáveis**
+
+- Variáveis de string não seguram diretamente seu valor de string;
+- Mantém uma referência para uma instância de uma string;
+- O valor de uma string não pode ser diretamente alterado, qualquer valor alterado cria uma nova instância dessa string.
+
+### **Igualdade de Strings**
+
+- O operador de igualdade não verifica o valor da string instânciado, verifica simplesmente se ambos variáveis são strings de referência para mesma string instânciada;
+- O método **equals** compara letra por letra de duas strings;
+- O método **equals** é a melhor escolha na maioria dos casos para verificação de igualdade de strings;
+- O método **intern** fornece um valor canonizado, permite comparação confiável no operador **==** e melhora performance de comparação de strings frequentes.
+- Devemos utilizar o método **intern** se o cenário frequente for comparação com strings.
+
+### **Selecionando Métodos e Classes de Strings**
+
+| Operador| Métodos | 
+| ------- | ------- |  
+| Length  | length  |
+| Criar novas sequências de string(s) | concat, replace, toLowerCase, toUpperCase, trim, split  |
+| Extrair substring  | charAt, substring |
+| Testar substring  | contains, endsWith, startsWith, indexOf, lastIndexOf | 
+| Comparação  | equals, equalsIgnoreCase, isEmpty, compareTo, compareToIgnoreCase |
+| Formatação  | format |
+| String para não-string  | valueOf |
+
+### **Convertendo Tipos Não-String para String**
+
+- Virtualmente todos os tipos de dados podem ser convertidos para uma **String**;
+- Pode ser usado **String.valueOf**;
+- Geralmente a conversão acontece implicitamente.
+
+### **StringBuilder**
+
+- Fornece um buffer de string mutável;
+- Provém uma maneira eficiente de construir valores com string;
+- Adiciona um novo conteúdo no final da string;
+- Permite inserir conteúdo dentro do buffer da string;
+- Não é uma cadeia de caracteres, depois de criar o conteúdo de nosso interesse precisamos extrair um string da instância do construtor de string usando **toString**.
+
+
+
+
 
 
 
