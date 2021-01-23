@@ -745,3 +745,12 @@ Minimum characters to display
 |f| Decimal  | Float point | 123.0 | 123.000000 |
 |e E|Scientific notation|Float point|123.0|1.230000e+02|          
 |s| String  | General | "Hello" | Hello |
+
+### **Formato de Flags**
+
+|Flag | Significado |
+|-----| ----------- | 
+|  #  |Include radix|
+|  0  |Zero-padding|
+|  -  |Left justify|
+
