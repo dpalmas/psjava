@@ -758,4 +758,35 @@ Minimum characters to display
 |  +  |Sempre exibe o sinal|
 |  (  |Incluí valores negativos entre parênteses|
 
+### **Índice de Argumentos**
 
+|Índice | Significado |
+|-----| ----------- | 
+| Não especificado |Corresponde sequencialmente ao argumento|
+|  index$  |Índice de argumento para uso (1-based)|
+|  <  |Corresponde ao mesmo argumento para formato especificador anterior|
+
+## Mais Sobre Tipo de Dados
+
+### **Hora e Data**
+
+Que horas são?
+- Não é uma pergunta simples como parece.
+
+Detalhes de hora podem ser complexos:
+- A melhor maneira de representar tempo depende o que estamos procurando fazer com ele.
+
+Nesse caso temos três cenários que precisamos analisar:
+
+> **Hora de eventos** primeiramente interessado em sequência de timestamp.
+
+> **Hora/local amigável dos humanos** data e hora do dia.
+
+> **Hora/local global amigável dos humanos** data e hora do dia e entender o fuso horário.
+
+### **Rastreamento de Hora de Eventos**
+
+**Instant Class**
+- Faz otimização de eventos time-stapimg;
+- Trabalha bem para comparações de tempos relativos;
+- Pode ser convertido dentro de complexos tipos de datas/horas.
