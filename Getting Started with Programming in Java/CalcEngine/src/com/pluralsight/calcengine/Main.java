@@ -41,15 +41,18 @@ public class Main {
 
     private static void displayResult(char opCode, double leftVal, double rightVal, double result) {
         char symbol = symbolFromOpCode(opCode);
-        StringBuilder builder = new StringBuilder(20);
-        builder.append(leftVal);
-        builder.append(" ");
-        builder.append(symbol);
-        builder.append(" ");
-        builder.append(rightVal);
-        builder.append(" = ");
-        builder.append(result);
-        String output = builder.toString();
+//        StringBuilder builder = new StringBuilder(20);
+//        builder.append(leftVal);
+//        builder.append(" ");
+//        builder.append(symbol);
+//        builder.append(" ");
+//        builder.append(rightVal);
+//        builder.append(" = ");
+//        builder.append(result);
+//        String output = builder.toString();
+//        System.out.println(output);
+
+        String output = String.format("%.3f %c %.3f = %.3f", leftVal, symbol, rightVal, result);
         System.out.println(output);
     }
 
