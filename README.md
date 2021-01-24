@@ -750,7 +750,12 @@ Minimum characters to display
 
 |Flag | Significado |
 |-----| ----------- | 
-|  #  |Include radix|
-|  0  |Zero-padding|
-|  -  |Left justify|
+|  #  |Incluí base|
+|  0  |Preenchimento de zero|
+|  -  |Justificar a esquerda|
+|  ,  |Incluí grupo separador
+|space|Espaço de liderança quando o número é positivo|
+|  +  |Sempre exibe o sinal|
+|  (  |Incluí valores negativos entre parênteses|
+
 
