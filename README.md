@@ -790,3 +790,11 @@ Nesse caso temos três cenários que precisamos analisar:
 - Faz otimização de eventos time-stapimg;
 - Trabalha bem para comparações de tempos relativos;
 - Pode ser convertido dentro de complexos tipos de datas/horas.
+
+## Classes e Interfaces
+
+Para seguirmos para o próximo nível e construírmos aplicações Java mais sofisticadas e modernas entender o conceito de classes e interfaces é fundamental, além disso é a base da linguagem Java.
+
+> **Classe** contém um estado, contém código para manipular o estado e nos permite criar tipos de dados personalizados.
+
+> **Interface** modela o comportamento dos tipos de dados e cria contratos entre tipos de dados.
