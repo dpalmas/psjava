@@ -800,11 +800,30 @@ Nesse caso temos três cenários que precisamos analisar:
 - Descreve formatação de data/hora;
 - Incluí muitos formatos pré-definidos;
 - Pode ser usado quando convertido para string;
-- Pode ser usado quando transforma para string. 
+- Pode ser usado quando transforma para string.
+
+**Classes wrapper primitivas**
+
+- Pode conter dados de valores primitivos;
+- Fornece métodos;
+- Habilita compatibilidade com aspectos ricos do tipo de sistema Java.
+
+**Cada tipo primitivo tem uma classe wrapper**
+
+- Byte, Short, Integer, Long;
+- Float, Double;
+- Character;
+- Boolean.
+
+**Métodos lidam com operações comuns**
+
+- Convertendo para outros tipos;
+- Extraindo valores de strings;
+- Encontrando valores min/max.
 
 ## Classes e Interfaces
 
-Para seguirmos para o próximo nível e construírmos aplicações Java mais sofisticadas e modernas entender o conceito de classes e interfaces é fundamental, além disso é a base da linguagem Java.
+Para seguirmos para o próximo nível e construírmos aplicações Java mais sofisticadas e modernas entender o conceito de classes e interfaces é fundamental, além disso é a base essencial para se trabalhar com a linguagem Java.
 
 > **Classe** contém um estado, contém código para manipular o estado e nos permite criar tipos de dados personalizados.
 
