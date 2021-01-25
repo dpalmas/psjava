@@ -791,6 +791,17 @@ Nesse caso temos três cenários que precisamos analisar:
 - Trabalha bem para comparações de tempos relativos;
 - Pode ser convertido dentro de complexos tipos de datas/horas.
 
+**Convertendo data/valores de hora/para string**
+
+- Por padrão cada tipo é limitado a um único formato de string.
+
+**DateTimeFormatter**
+
+- Descreve formatação de data/hora;
+- Incluí muitos formatos pré-definidos;
+- Pode ser usado quando convertido para string;
+- Pode ser usado quando transforma para string. 
+
 ## Classes e Interfaces
 
 Para seguirmos para o próximo nível e construírmos aplicações Java mais sofisticadas e modernas entender o conceito de classes e interfaces é fundamental, além disso é a base da linguagem Java.
