@@ -835,3 +835,6 @@ Para seguirmos para o próximo nível e construírmos aplicações Java mais sof
 
 ### **Entendendo Classes e Objetos em Java**
 
+Java é uma linguagem de programação orientada a objetos. Os objetos nos permitem encapsular dados e operações de dados dentro de uma única entidade e então expõe semântica para trabalhar com esta entidade.
+
+E com os objetos, o armazenamento e os detalhes de manipulação podem ser escondidos, e este é o conceito que realmente importa, porque isto permite os objetos a expor operações que podem ser realizadas sem sobrecarregar o uso de objeto com detalhes de como estas operações são realizadas.
