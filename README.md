@@ -843,4 +843,18 @@ E com os objetos, o armazenamento e os detalhes de manipulação podem ser escon
 
 - Usa-se uma nova palavra-chave para criar uma instância de uma classe(um objeto);
 - Aloca a memória descrita na classe e executa o construtor;
-- Retorna a referência para a memória alocada
+- Retorna a referência para a memória alocada.
+
+### **Encapsulamento e Modificadores de Acesso**
+
+> A implementação e os detalhes da classe geralmente são escondidos esse conceito é conhecido como **encapsulamento**, Java usa modificadores de acesso para efetuar o encapsulamento.
+
+### **Modificadores de Acesso Básico**
+
+|Modificador | Visibilidade | Usado nas classes | Usado nos membros |
+|-----| ----------- | ----------- | ----------- | 
+| Sem modificador de acesso  |Somente com próprio pacote(pacote privado)| Sim | Sim |
+| publico  | Em qualquer lugar | Sim | Sim |
+| privado  | Somente com declaração de classe | Não* | Sim |  
+
+**\*** Como privado aplica-se ao nível do topo da classe, privado é disponível para classes-aninhadas.
