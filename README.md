@@ -858,3 +858,15 @@ E com os objetos, o armazenamento e os detalhes de manipulação podem ser escon
 | privado  | Somente com declaração de classe | Não* | Sim |  
 
 **\*** Como privado aplica-se ao nível do topo da classe, privado é disponível para classes-aninhadas.
+
+### **Referências Especiais**
+
+> **this** referência implícita para o objeto atual, útil para redução de ambiguidade, permite que um objeto passe-se como parâmetro.
+
+> **null** representa um objeto não criado, pode ser atribuído para qualquer referência de variável.
+
+### **Encapsulamento de Campo**
+
+- Os campos específicos que uma classe usa para gerenciar valores de dados são geralmente considerados como um detalhe de implementação;
+- Na maioria dos casos esses detalhes não devem ser diretamente acessados fora da classe;
+- Usa métodos para controlar acesso aos campos.
