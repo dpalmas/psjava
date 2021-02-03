@@ -9,12 +9,12 @@
 
 <p align="center">
   
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/dpalmas/happy?color=0000FF">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/dpalmas/psjava?color=0000FF">
 
-  <img alt="License" src="https://img.shields.io/github/license/dpalmas/happy?color=0000FF&logo=MIT">
+  <img alt="License" src="https://img.shields.io/github/license/dpalmas/psjava?color=0000FF&logo=MIT">
   
-  <a href="https://github.com/dpalmas/happy/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dpalmas/happy?color=0000FF">
+  <a href="https://github.com/dpalmas/psjava/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dpalmas/psjava?color=0000FF">
   </a>
 </p>
 
