@@ -1,4 +1,6 @@
-# Java Language Fundamentals
+<h1 align="center"> 
+  Java Language Fundamentals
+</h1>
 
 <h2 align="center">
   Java Course by PluralSight :book: :computer: :rocket:
