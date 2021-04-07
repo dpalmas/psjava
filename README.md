@@ -22,7 +22,7 @@
 
 ## A Linguagem Java
 
-Você sabia que a linguagem Java é uma das habilidades de linguagem de programação mais procurada? Java é usado para desenvolver qualquer coisa desde aplicações em smartphone, websites, processos lado-servidor, IoT(Internet das Coisas) e além de tudo isso uma pesquisa recente listou Java como umas das cinco mais importantes linguagens para Ciência dos Dados e Big Data.
+Você sabia que a linguagem Java é uma das habilidades de linguagem de programação mais procurada? Java é usado para desenvolver qualquer coisa desde aplicações em smartphone, websites, desktops, processos lado-servidor, IoT(Internet das Coisas), robótica educacional(Lego Mindstorms) e além de tudo isso uma pesquisa recente listou Java como umas das cinco mais importantes linguagens para Ciência dos Dados e Big Data.
 
 ## Principais acrônimos em Java
 
